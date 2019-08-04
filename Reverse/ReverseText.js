@@ -23,7 +23,11 @@ function SecondReverse(str){
 }
 
 //This is Last Solution 
+ //Reduce take two arguaments
+    // First one is an arrow function
+    // Second argument is a starting initial value for our function, ////// which is passed an empty string
 function ThirdReverse(str){
+    debugger;
     return str.split('').reduce((reversed, character) => {
             return  character + reversed;
     },'');
